@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herramientas IA en el aula", "Herramientas IA en el aula\Herramientas IA en el aula.csproj", "{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59FDE8D-59EB-454E-915C-E0B40CAA84D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16BD3934-3D24-4B7B-B9F8-EAD99C2B4BF5}
+	EndGlobalSection
+EndGlobal

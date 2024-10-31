@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Page4"
+             Title="">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#000000">
+            <Label Text="Ética en la Inteligencia Artificial"
+       HorizontalOptions="Center"
+       FontSize="Title"
+       FontAttributes="Bold"
+       Padding="10,10,10,10" 
+       TextColor="White"/>
+            <Image
+        Source="etica.png"
+        VerticalOptions="Center"
+        Margin="0,0"
+        HorizontalOptions="Center"/>
+
+            <Label Text="Los valores y principios éticos son fundamentales para guiar la creación y uso de sistemas de inteligencia artificial (IA), asegurando que su impacto sea positivo y responsable. Algunos de los principales valores y principios incluyen:" 
+           Padding="30,20,30,10" 
+           FontSize="18" 
+           TextColor="White"/>
+
+            <Label Text="• Transparencia: La IA debe ser comprensible y sus procesos explicables. Esto permite que las personas comprendan cómo y por qué se toman ciertas decisiones, fomentando la confianza en la tecnología." 
+       FontSize="17"
+       Padding="50,0,50,10" 
+       TextColor="White"/>
+
+            <Label Text="• Responsabilidad: Los desarrolladores y usuarios deben asumir responsabilidad sobre el impacto de la IA, garantizando que se utilice de manera ética y que se resuelvan los problemas o riesgos que puedan surgir."
+                   FontSize="17"
+                   Padding="50,0,50,10" 
+                   TextColor="White"/>
+
+            <Label Text="• Equidad y no discriminación: Los sistemas de IA deben diseñarse para evitar sesgos y prejuicios, asegurando un trato justo para todos, sin importar género, raza u otros atributos."
+                   FontSize="17"
+                   Padding="50,0,50,10" 
+                   TextColor="White"/>
+
+            <Label Text="• Privacidad y seguridad: La protección de los datos personales y la seguridad en su manejo son esenciales para prevenir abusos y proteger a los usuarios de posibles vulnerabilidades."
+                   FontSize="17"
+                   Padding="50,0,50,10" 
+                   TextColor="White"/>
+
+
+            <Label Text="• Beneficio social: La IA debe crearse y utilizarse con la intención de mejorar la vida de las personas y de generar un impacto positivo en la sociedad, priorizando el bien común."
+                   FontSize="17"
+                   Padding="50,0,50,10" 
+                   TextColor="White"/>
+
+
+            <!-- Botón - - - - - - - - -->
+            
+            
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="⇚   Atrás"
+        FontAttributes="Bold"
+        Clicked="Page3" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="0"/>
+
+                <Button Text="Siguiente   ⇛"
+        FontAttributes="Bold"
+        Clicked="Page5" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="1"/>
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

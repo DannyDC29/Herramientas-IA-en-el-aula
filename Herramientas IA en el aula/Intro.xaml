@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Intro"
+             Title="">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#180c20">
+        <Label Text="INTRODUCCIÓN"
+       HorizontalOptions="Center"
+       FontSize="Title"
+       FontAttributes="Bold"
+       Padding="10,10,10,20" />
+
+            <Image Source="intro.jpeg"
+                   VerticalOptions="Center"
+                   Margin="0,0,0,50"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Hoy en día, la capacidad de navegar y utilizar herramientas de inteligencia artificial se ha convertido en una competencia fundamental para los profesionistas de cualquier área, permitiéndoles mantenerse a la vanguardia en un mercado laboral cada vez más competitivo. La adopción y el dominio de la IA no solo amplían el horizonte de posibilidades profesionales, sino que también transforman cómo se abordan problemas, se toman decisiones y se optimizan procesos en cualquier sector."
+       Padding="30,0,30,10"
+       FontSize="18"/>
+            
+            <Label Text="Una de las tecnologías más disruptivas en esta área es ChatGPT, que se ha consolidado como la tecnología de más rápida adopción en la historia reciente. Gracias a su capacidad para comprender y generar texto en múltiples contextos, ha encontrado aplicaciones en campos tan variados como la atención al cliente, la redacción de contenido, el desarrollo de software y la educación, por nombrar algunos."
+       Padding="30,0,30,10"
+       FontSize="18"/>
+
+            <Label Text="La IA ya no es una herramienta reservada para especialistas; su integración en tareas cotidianas la ha vuelto omnipresente. Desde asistentes virtuales en dispositivos móviles hasta recomendaciones de contenido y automatización en los lugares de trabajo, la IA se entrelaza con nuestras actividades diarias de maneras que, hasta hace poco, parecían futuristas."
+       Padding="30,0,30,10"
+       FontSize="18"/>
+
+            <Label Text="En definitiva, podemos ignorar o no profundizar en el uso de la IA, pero no podemos evitar sus efectos en la sociedad y el trabajo. Adaptarnos y aprender a utilizarla efectivamente puede ser una de las habilidades más valiosas para el futuro próximo."
+       Padding="30,0,30,10"
+       FontSize="18"/>
+
+            
+            <!-- Botones - - - - - - - - - -  -->
+
+            <Grid Margin="0,0,0,0" Padding="0,30,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="⇚   Atrás"
+        FontAttributes="Bold"
+        Clicked="menu" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="0"/>
+            <Button Text="Siguiente   ⇛"
+        FontAttributes="Bold"
+        Clicked="Page1" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

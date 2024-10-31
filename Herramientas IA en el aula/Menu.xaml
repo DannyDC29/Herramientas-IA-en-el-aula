@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Menu"
+             Title="Menú">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#9dbfda">
+            <Label Text="HERRAMIENTAS IA EN EL AULA (PONENCIA 3-VIRTUAL) POR EMANUEL GORDILLO"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="10,10,10,10" />
+
+            <Image Source="logo.jpg"
+                   VerticalOptions="Center"
+                   Margin="0,0,0,180"
+                   HorizontalOptions="Center"/>
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+                <Button Text="Siguiente   ⇛"
+                    FontAttributes="Bold"
+                    Clicked="Intro" 
+                    Margin="40,10,40,20"
+                    TextColor="White"
+                    BackgroundColor="#004B93" 
+                        Grid.Column="1"/>
+            </Grid>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

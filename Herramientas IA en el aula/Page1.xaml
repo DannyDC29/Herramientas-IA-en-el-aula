@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Page1"
+             Title="">
+    <ScrollView>
+    <VerticalStackLayout BackgroundColor="#ffffff">
+            <Label Text="¿Qué es la Inteligencia Artificial?"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="10,10,10,0"
+                   TextColor="Black"/>
+        
+            <Image
+            Source="quees.jpg"
+            VerticalOptions="Center"
+            Margin="0,0"
+            HorizontalOptions="Center"/>
+
+            <Label Text="La inteligencia artificial (IA) es la base que permite emular procesos de inteligencia humana, logrando que los sistemas computacionales realicen tareas que, en principio, requieren capacidades como el razonamiento, la percepción y el aprendizaje. Esta emulación se consigue a través del desarrollo y la aplicación de algoritmos complejos que modelan aspectos del comportamiento humano." 
+               Padding="30,0,30,10" 
+               FontSize="18" 
+               TextColor="Black"/>
+        
+            <Label Text="Para que la IA funcione de manera efectiva, se requieren varios elementos clave:" 
+               Padding="30,0,30,10" 
+               FontSize="18" 
+               TextColor="Black"/>
+
+            <Label Text="• Sistemas computarizados: La infraestructura tecnológica es fundamental, ya que proporciona la potencia de procesamiento necesaria para que los algoritmos de IA analicen y procesen grandes volúmenes de datos rápidamente." 
+               FontSize="17" 
+               Padding="50,0,50,10" 
+               TextColor="Black"/>
+
+            <Label Text="• Datos y gestión de los mismos: La IA necesita vastos conjuntos de datos para aprender patrones, clasificar información y realizar predicciones precisas. La calidad y diversidad de estos datos son esenciales para que los modelos de IA generalicen correctamente y se adapten a distintos contextos." 
+               FontSize="17" 
+               Padding="50,0,50,10" 
+               TextColor="Black"/>
+
+            <Label Text="• Algoritmos de IA avanzados: Estos algoritmos, que incluyen modelos de aprendizaje automático, redes neuronales profundas y procesamiento de lenguaje natural, son el núcleo de la IA. Los algoritmos permiten que el sistema 'aprenda' de los datos y ajuste sus respuestas o acciones con base en lo que 'experimenta'." 
+               FontSize="17" 
+               Padding="50,0,50,10" 
+               TextColor="Black"/>
+
+            <Label Text="Gracias a la combinación de datos robustos, procesamiento computacional y algoritmos avanzados, es posible que la IA reproduzca, hasta cierto punto, comportamientos humanos complejos. Esto incluye desde reconocer patrones visuales y de lenguaje hasta anticipar decisiones y ofrecer recomendaciones, lo que la hace cada vez más capaz de imitar comportamientos humanos en diversos ámbitos." 
+               Padding="30,0,30,0" 
+               FontSize="18" 
+               TextColor="Black"/>
+
+            <!-- Botón - - - - - - - - -->
+        
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="⇚   Atrás"
+        FontAttributes="Bold"
+        Clicked="Intro" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="0"/>
+
+                <Button Text="Siguiente   ⇛"
+        FontAttributes="Bold"
+        Clicked="Page2" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="1"/>
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

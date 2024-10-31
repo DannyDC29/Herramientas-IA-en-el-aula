@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Maestro"
+             Title="Maestro">
+    <VerticalStackLayout Margin="20,40">
+        <Button Text="¿Qué es?"
+                FontAttributes="Bold"
+                Clicked="Page1" 
+                Margin="0,10"
+                TextColor="White"
+                BackgroundColor="#004B93"/>
+        
+        <Button Text="¿Cómo funciona la IA?"
+                FontAttributes="Bold"
+                Clicked="Page2" 
+                Margin="0,10"
+                TextColor="White"
+                BackgroundColor="#004B93"/>
+
+        <Button Text="Ventajas y Desventajas"
+                FontAttributes="Bold"
+                Clicked="Page3" 
+                Margin="0,10"
+                TextColor="White"
+                BackgroundColor="#004B93"/>
+
+        <Button Text="Ética en la IA"
+                FontAttributes="Bold"
+                Clicked="Page4" 
+                Margin="0,10"
+                TextColor="White"
+                BackgroundColor="#004B93"/>
+
+        <Button Text="IA en el aprendizaje"
+                FontAttributes="Bold"
+                Clicked="Page5" 
+                Margin="0,10"
+                TextColor="White"
+                BackgroundColor="#004B93"/>
+
+    </VerticalStackLayout>
+</ContentPage>

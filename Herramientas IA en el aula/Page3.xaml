@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Page3"
+             Title="">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#4944bc">
+            <Label Text="Pros y Contras de la IA en la Educación"
+       HorizontalOptions="Center"
+       FontSize="Title"
+       FontAttributes="Bold"
+       Padding="10,10,10,10" 
+       TextColor="White"/>
+            <Image
+        Source="ventajas.jpg"
+        VerticalOptions="Center"
+        Margin="0,0"
+        HorizontalOptions="Center"/>
+
+            <Label Text="La inteligencia artificial aporta ventajas como:" 
+           FontSize="Title" 
+           Padding="30,30,30,10" 
+           FontAttributes="Bold"
+           TextColor="White"/>
+
+            <Label Text="• Automatización de procesos rutinarios." 
+           FontSize="17" 
+           Padding="50,00,50,10" 
+           TextColor="White"/>
+            <Label Text="• Impulso a la creatividad, al liberar a los equipos de tareas repetitivas.
+" 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+            
+            <Label Text="• Mayor precisión y reducción de errores humanos." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+
+            <Label Text="• Optimización del tiempo en tareas complejas." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+
+            <Label Text="• Ciberseguridad mejorada al detectar amenazas." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+
+
+            <Label Text="Sin embargo, también enfrenta desventajas como:" 
+            FontSize="Title"
+           Padding="30,20,30,10" 
+           FontAttributes="Bold"
+           TextColor="White"/>
+
+            <Label Text="• Limitación de datos para entrenar modelos." 
+           FontSize="17" 
+           Padding="50,00,50,10" 
+           TextColor="White"/>
+            <Label Text="• Altos costos y tiempo de implementación." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+            <Label Text="• Dependencia que podría reducir la creatividad humana." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+            <Label Text="• Escasez de talento especializado." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+            <Label Text="• Riesgos en privacidad y seguridad al manejar grandes volúmenes de datos." 
+           FontSize="17" 
+           Padding="50,0,50,10" 
+           TextColor="White"/>
+
+            <Grid Margin="0,15,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Botón para tomar una foto con la cámara -->
+                <Button Text="⇚   Atrás"
+        FontAttributes="Bold"
+        Clicked="Page2" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="0"/>
+
+                <!-- Botón para seleccionar una imagen de la galería -->
+                <Button Text="Siguiente   ⇛"
+        FontAttributes="Bold"
+        Clicked="Page4" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="1"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

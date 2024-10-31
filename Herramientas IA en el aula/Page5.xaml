@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Herramientas_IA_en_el_aula.Page5"
+             Title="">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#a0d1f9">
+
+            <Label Text="La IA en el aprendizaje"
+       HorizontalOptions="Center"
+       FontSize="Title"
+       FontAttributes="Bold"
+       Padding="10,10,10,10" 
+       TextColor="White"/>
+            
+            <Image
+        Source="education.jpg"
+        VerticalOptions="Center"
+        Margin="0,0"
+        HorizontalOptions="Center"/>
+
+            <Label Text="Uso de la IA en el aprendizaje"
+                   
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="10,10,10,10"
+                   TextColor="white"/>
+
+            <Label Text="El uso de la inteligencia artificial en el aprendizaje ha revolucionado el ámbito educativo, ofreciendo nuevas herramientas que potencian tanto la experiencia de estudiantes como de docentes. La capacidad para navegar y utilizar la IA se ha vuelto esencial para los profesionistas actuales, quienes deben estar al día con estas tecnologías para destacarse." 
+           Padding="30,0,30,10" 
+           FontSize="18" 
+           TextColor="white"/>
+            <!--  <Label Text="Para conseguirlo:" 
+           Padding="30,0,30,10" 
+           FontSize="18" 
+           TextColor="Black"/>-->
+            <Label Text="La IA en el aula"
+
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="10,10,10,10"
+                   TextColor="white"/>
+
+            <Label Text="La inteligencia artificial es clave para el éxito educativo, ya que permite personalizar el aprendizaje en función de las necesidades y ritmos de cada estudiante. Además, facilita la gestión docente al automatizar tareas administrativas, optimizando así el tiempo disponible para una enseñanza más efectiva." 
+                   Padding="30,0,30,10" 
+                   FontSize="18" 
+                   TextColor="white"/>
+
+            <Label Text="Maravillas de la IA para estudiantes universitarios"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="10,10,10,10" TextColor="white"/>
+
+            <Label Text="• Búsqueda avanzada: Permite acceder a información relevante rápidamente, optimizando el proceso de investigación."
+                   FontSize="17"
+                   Padding="50,0,50,10" TextColor="white"/>
+
+            <Label Text="• Compañero de estudio: La IA puede ayudar a resolver dudas y ofrecer explicaciones en tiempo real, convirtiéndose en un apoyo constante."
+                   FontSize="17"
+                   Padding="50,0,50,10" TextColor="white"/>
+
+            <Label Text="• Análisis de información: Herramientas de IA facilitan el procesamiento y comprensión de grandes volúmenes de datos, útil en diversas disciplinas."
+                   FontSize="17"
+                   Padding="50,0,50,10" TextColor="white"/>
+
+            <Label Text="• Herramientas de diseño: Asistentes de IA ayudan en la creación de gráficos, presentaciones y otros materiales visuales, haciendo más eficiente el trabajo creativo.."
+                   FontSize="17"
+                   Padding="50,0,50,10" TextColor="white"/>
+
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Botón para tomar una foto con la cámara -->
+                <Button Text="⇚   Atrás"
+        FontAttributes="Bold"
+        Clicked="Page4" 
+        Margin="40,10,40,20"
+        TextColor="White"
+        BackgroundColor="#004B93"
+                        Grid.Column="0"/>
+
+                <!-- Botón para seleccionar una imagen de la galería -->
+     
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
